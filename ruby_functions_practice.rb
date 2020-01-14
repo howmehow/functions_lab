@@ -61,6 +61,11 @@ end
 
 
 def volume_of_sphere(radius)
-  return (4/3) * {Math:PI} * radius**3
+  return volume = (4.0/3.0) * 3.14 * radius**3
 
+end
+
+
+def fahrenheit_to_celsius(temperature_in_F)
+  return (temperature_in_F - 32.0) * 5/9
 end
